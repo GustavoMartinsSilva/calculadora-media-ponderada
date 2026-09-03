@@ -29,10 +29,13 @@ public class Gustavoteste {
             String name = input.next();
             
             if( name == "-1") {
+                
+                System.out.println("Alunos cadastrados: ");
                 break;
+                  
             }
-        
-            System.out.println("Nota: 1");
+            else {
+            System.out.println("Nota1: ");
             int n1 = input.nextInt();
 
             System.out.print("nota 2");
@@ -42,6 +45,11 @@ public class Gustavoteste {
 
 
             System.out.println(media);
+            
+            int soma = media * 5;
+            System.out.println("Media total" + soma);
+          }
        }
+       
     }
 }
